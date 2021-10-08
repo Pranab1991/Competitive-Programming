@@ -11,7 +11,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Solution {
+class Solution10 {
 
     /*
      * Complete the 'dynamicArray' function below.
@@ -69,7 +69,7 @@ public class DynamicArray {
             }
         });
 
-        List<Integer> result = Solution.dynamicArray(n, queries);
+        List<Integer> result = Solution10.dynamicArray(n, queries);
 
         bufferedWriter.write(
             result.stream()
